@@ -1,0 +1,36 @@
+
+.command-line {
+	Height: 100%;
+	Margin : 0;
+	Background-color : black;
+	Color: white;
+	Font-family: Courrier, 'VT323';
+}
+.context {
+	Display : inline-block;
+	Vertical-align : baseline;
+}
+.header {
+	Margin-bottom : 10px;
+}
+.list {
+	padding : 0;
+	Margin : 0;
+}
+.list-item {
+	List-style-type : none;
+	Font-size: 16px;
+}
+.list-item:before {
+	content: "C:\\TRACEONE\\system32>";
+}
+.input {
+	Color: inherit;
+	Border: 0px none;
+	Background-color : black;
+    color:white;
+	Margin-left : 2px;
+	Padding : 0;
+	Font-size : 16px;
+	width:60%;
+}
